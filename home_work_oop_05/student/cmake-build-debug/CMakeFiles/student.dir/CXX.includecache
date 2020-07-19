@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isaac/CLionProjects/student/Student.h
+string
+-
+iostream
+-
+
+/home/isaac/CLionProjects/student/main.cpp
+iostream
+-
+Student.h
+/home/isaac/CLionProjects/student/Student.h
+vector
+-
+fstream
+-
+

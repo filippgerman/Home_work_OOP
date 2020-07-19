@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled1.dir/main.cpp.o CMakeFiles/untitled1.dir/Shape.cpp.o CMakeFiles/untitled1.dir/CircleShape.cpp.o CMakeFiles/untitled1.dir/SquareShape.cpp.o  -o untitled1 

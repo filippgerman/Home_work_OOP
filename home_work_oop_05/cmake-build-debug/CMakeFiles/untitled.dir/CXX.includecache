@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isaac/CLionProjects/untitled/Tree.h
+TreeNode.h
+/home/isaac/CLionProjects/untitled/TreeNode.h
+
+/home/isaac/CLionProjects/untitled/TreeNode.h
+iostream
+-
+
+/home/isaac/CLionProjects/untitled/main.cpp
+iostream
+-
+Tree.h
+/home/isaac/CLionProjects/untitled/Tree.h
+
