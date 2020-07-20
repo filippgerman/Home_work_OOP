@@ -48,10 +48,10 @@ RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/Home_work_oop/class_work
+CMAKE_SOURCE_DIR = /home/isaac/Home_work_oop/home_work_06
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/Home_work_oop/class_work/cmake-build-debug
+CMAKE_BINARY_DIR = /home/isaac/Home_work_oop/home_work_06/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles /home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles /home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,98 +111,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled1
+# Target rules for targets named home_work_06
 
 # Build rule for target.
-untitled1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled1
-.PHONY : untitled1
+home_work_06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 home_work_06
+.PHONY : home_work_06
 
 # fast build rule for target.
-untitled1/fast:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/build
-.PHONY : untitled1/fast
+home_work_06/fast:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/build
+.PHONY : home_work_06/fast
 
-CircleShape.o: CircleShape.cpp.o
+Apple.o: Apple.cpp.o
 
-.PHONY : CircleShape.o
-
-# target to build an object file
-CircleShape.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/CircleShape.cpp.o
-.PHONY : CircleShape.cpp.o
-
-CircleShape.i: CircleShape.cpp.i
-
-.PHONY : CircleShape.i
-
-# target to preprocess a source file
-CircleShape.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/CircleShape.cpp.i
-.PHONY : CircleShape.cpp.i
-
-CircleShape.s: CircleShape.cpp.s
-
-.PHONY : CircleShape.s
-
-# target to generate assembly for a file
-CircleShape.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/CircleShape.cpp.s
-.PHONY : CircleShape.cpp.s
-
-Shape.o: Shape.cpp.o
-
-.PHONY : Shape.o
+.PHONY : Apple.o
 
 # target to build an object file
-Shape.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Shape.cpp.o
-.PHONY : Shape.cpp.o
+Apple.cpp.o:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Apple.cpp.o
+.PHONY : Apple.cpp.o
 
-Shape.i: Shape.cpp.i
+Apple.i: Apple.cpp.i
 
-.PHONY : Shape.i
+.PHONY : Apple.i
 
 # target to preprocess a source file
-Shape.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Shape.cpp.i
-.PHONY : Shape.cpp.i
+Apple.cpp.i:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Apple.cpp.i
+.PHONY : Apple.cpp.i
 
-Shape.s: Shape.cpp.s
+Apple.s: Apple.cpp.s
 
-.PHONY : Shape.s
+.PHONY : Apple.s
 
 # target to generate assembly for a file
-Shape.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Shape.cpp.s
-.PHONY : Shape.cpp.s
+Apple.cpp.s:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Apple.cpp.s
+.PHONY : Apple.cpp.s
 
-SquareShape.o: SquareShape.cpp.o
+Banan.o: Banan.cpp.o
 
-.PHONY : SquareShape.o
+.PHONY : Banan.o
 
 # target to build an object file
-SquareShape.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/SquareShape.cpp.o
-.PHONY : SquareShape.cpp.o
+Banan.cpp.o:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Banan.cpp.o
+.PHONY : Banan.cpp.o
 
-SquareShape.i: SquareShape.cpp.i
+Banan.i: Banan.cpp.i
 
-.PHONY : SquareShape.i
+.PHONY : Banan.i
 
 # target to preprocess a source file
-SquareShape.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/SquareShape.cpp.i
-.PHONY : SquareShape.cpp.i
+Banan.cpp.i:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Banan.cpp.i
+.PHONY : Banan.cpp.i
 
-SquareShape.s: SquareShape.cpp.s
+Banan.s: Banan.cpp.s
 
-.PHONY : SquareShape.s
+.PHONY : Banan.s
 
 # target to generate assembly for a file
-SquareShape.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/SquareShape.cpp.s
-.PHONY : SquareShape.cpp.s
+Banan.cpp.s:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Banan.cpp.s
+.PHONY : Banan.cpp.s
+
+Grape.o: Grape.cpp.o
+
+.PHONY : Grape.o
+
+# target to build an object file
+Grape.cpp.o:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Grape.cpp.o
+.PHONY : Grape.cpp.o
+
+Grape.i: Grape.cpp.i
+
+.PHONY : Grape.i
+
+# target to preprocess a source file
+Grape.cpp.i:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Grape.cpp.i
+.PHONY : Grape.cpp.i
+
+Grape.s: Grape.cpp.s
+
+.PHONY : Grape.s
+
+# target to generate assembly for a file
+Grape.cpp.s:
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/Grape.cpp.s
+.PHONY : Grape.cpp.s
 
 main.o: main.cpp.o
 
@@ -210,7 +210,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -219,7 +219,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -228,7 +228,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/home_work_06.dir/build.make CMakeFiles/home_work_06.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -239,16 +239,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... untitled1"
-	@echo "... CircleShape.o"
-	@echo "... CircleShape.i"
-	@echo "... CircleShape.s"
-	@echo "... Shape.o"
-	@echo "... Shape.i"
-	@echo "... Shape.s"
-	@echo "... SquareShape.o"
-	@echo "... SquareShape.i"
-	@echo "... SquareShape.s"
+	@echo "... home_work_06"
+	@echo "... Apple.o"
+	@echo "... Apple.i"
+	@echo "... Apple.s"
+	@echo "... Banan.o"
+	@echo "... Banan.i"
+	@echo "... Banan.s"
+	@echo "... Grape.o"
+	@echo "... Grape.i"
+	@echo "... Grape.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

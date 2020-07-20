@@ -1,4 +1,4 @@
-# Install script for directory: /home/isaac/Home_work_oop/class_work
+# Install script for directory: /home/isaac/Home_work_oop/home_work_06
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/isaac/Home_work_oop/class_work/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

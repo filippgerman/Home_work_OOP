@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/isaac/CLionProjects/untitled1/CircleShape.cpp" "/home/isaac/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/CircleShape.cpp.o"
-  "/home/isaac/CLionProjects/untitled1/Shape.cpp" "/home/isaac/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/Shape.cpp.o"
-  "/home/isaac/CLionProjects/untitled1/SquareShape.cpp" "/home/isaac/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/SquareShape.cpp.o"
-  "/home/isaac/CLionProjects/untitled1/main.cpp" "/home/isaac/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.o"
+  "/home/isaac/Home_work_oop/class_work/CircleShape.cpp" "/home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles/untitled1.dir/CircleShape.cpp.o"
+  "/home/isaac/Home_work_oop/class_work/Shape.cpp" "/home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles/untitled1.dir/Shape.cpp.o"
+  "/home/isaac/Home_work_oop/class_work/SquareShape.cpp" "/home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles/untitled1.dir/SquareShape.cpp.o"
+  "/home/isaac/Home_work_oop/class_work/main.cpp" "/home/isaac/Home_work_oop/class_work/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

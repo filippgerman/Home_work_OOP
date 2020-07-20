@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isaac/Home_work_oop/home_work_06/Banan.cpp
+Banan.h
+/home/isaac/Home_work_oop/home_work_06/Banan.h
+iostream
+-
+
+/home/isaac/Home_work_oop/home_work_06/Banan.h
+Fruit.h
+/home/isaac/Home_work_oop/home_work_06/Fruit.h
+
+/home/isaac/Home_work_oop/home_work_06/Fruit.h
+string
+-
+

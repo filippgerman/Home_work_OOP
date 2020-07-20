@@ -1,0 +1,3 @@
+/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles/home_work_06.dir
