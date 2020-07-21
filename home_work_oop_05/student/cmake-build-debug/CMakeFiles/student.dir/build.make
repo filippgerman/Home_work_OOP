@@ -43,10 +43,10 @@ RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/CLionProjects/student
+CMAKE_SOURCE_DIR = /home/isaac/Home_work_oop/home_work_oop_05/student
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/CLionProjects/student/cmake-build-debug
+CMAKE_BINARY_DIR = /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/student.dir/depend.make
@@ -59,28 +59,58 @@ include CMakeFiles/student.dir/flags.make
 
 CMakeFiles/student.dir/main.cpp.o: CMakeFiles/student.dir/flags.make
 CMakeFiles/student.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/main.cpp.o -c /home/isaac/CLionProjects/student/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/main.cpp.o -c /home/isaac/Home_work_oop/home_work_oop_05/student/main.cpp
 
 CMakeFiles/student.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/CLionProjects/student/main.cpp > CMakeFiles/student.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_oop_05/student/main.cpp > CMakeFiles/student.dir/main.cpp.i
 
 CMakeFiles/student.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/CLionProjects/student/main.cpp -o CMakeFiles/student.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_oop_05/student/main.cpp -o CMakeFiles/student.dir/main.cpp.s
+
+CMakeFiles/student.dir/Student.cpp.o: CMakeFiles/student.dir/flags.make
+CMakeFiles/student.dir/Student.cpp.o: ../Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student.dir/Student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/Student.cpp.o -c /home/isaac/Home_work_oop/home_work_oop_05/student/Student.cpp
+
+CMakeFiles/student.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student.dir/Student.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_oop_05/student/Student.cpp > CMakeFiles/student.dir/Student.cpp.i
+
+CMakeFiles/student.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student.dir/Student.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_oop_05/student/Student.cpp -o CMakeFiles/student.dir/Student.cpp.s
+
+CMakeFiles/student.dir/PointerStudent.cpp.o: CMakeFiles/student.dir/flags.make
+CMakeFiles/student.dir/PointerStudent.cpp.o: ../PointerStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/student.dir/PointerStudent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/PointerStudent.cpp.o -c /home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.cpp
+
+CMakeFiles/student.dir/PointerStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student.dir/PointerStudent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.cpp > CMakeFiles/student.dir/PointerStudent.cpp.i
+
+CMakeFiles/student.dir/PointerStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student.dir/PointerStudent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.cpp -o CMakeFiles/student.dir/PointerStudent.cpp.s
 
 # Object files for target student
 student_OBJECTS = \
-"CMakeFiles/student.dir/main.cpp.o"
+"CMakeFiles/student.dir/main.cpp.o" \
+"CMakeFiles/student.dir/Student.cpp.o" \
+"CMakeFiles/student.dir/PointerStudent.cpp.o"
 
 # External object files for target student
 student_EXTERNAL_OBJECTS =
 
 student: CMakeFiles/student.dir/main.cpp.o
+student: CMakeFiles/student.dir/Student.cpp.o
+student: CMakeFiles/student.dir/PointerStudent.cpp.o
 student: CMakeFiles/student.dir/build.make
 student: CMakeFiles/student.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable student"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable student"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +123,6 @@ CMakeFiles/student.dir/clean:
 .PHONY : CMakeFiles/student.dir/clean
 
 CMakeFiles/student.dir/depend:
-	cd /home/isaac/CLionProjects/student/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/CLionProjects/student /home/isaac/CLionProjects/student /home/isaac/CLionProjects/student/cmake-build-debug /home/isaac/CLionProjects/student/cmake-build-debug /home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles/student.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/Home_work_oop/home_work_oop_05/student /home/isaac/Home_work_oop/home_work_oop_05/student /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/student.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/student.dir/depend
 

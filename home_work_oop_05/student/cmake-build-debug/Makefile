@@ -48,10 +48,10 @@ RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/CLionProjects/student
+CMAKE_SOURCE_DIR = /home/isaac/Home_work_oop/home_work_oop_05/student
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/CLionProjects/student/cmake-build-debug
+CMAKE_BINARY_DIR = /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles /home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ student/fast:
 	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/build
 .PHONY : student/fast
 
+PointerStudent.o: PointerStudent.cpp.o
+
+.PHONY : PointerStudent.o
+
+# target to build an object file
+PointerStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/PointerStudent.cpp.o
+.PHONY : PointerStudent.cpp.o
+
+PointerStudent.i: PointerStudent.cpp.i
+
+.PHONY : PointerStudent.i
+
+# target to preprocess a source file
+PointerStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/PointerStudent.cpp.i
+.PHONY : PointerStudent.cpp.i
+
+PointerStudent.s: PointerStudent.cpp.s
+
+.PHONY : PointerStudent.s
+
+# target to generate assembly for a file
+PointerStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/PointerStudent.cpp.s
+.PHONY : PointerStudent.cpp.s
+
+Student.o: Student.cpp.o
+
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... student"
+	@echo "... PointerStudent.o"
+	@echo "... PointerStudent.i"
+	@echo "... PointerStudent.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -3,4 +3,4 @@ project(student)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(student main.cpp Student.h)
+add_executable(student main.cpp Student.h Student.cpp PointerStudent.cpp PointerStudent.h)

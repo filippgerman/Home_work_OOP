@@ -19,15 +19,17 @@ public:
     void print_data();
     void clear_tree();
 
+    ~TreeNode();
+
 };
 
 
 void TreeNode::insert(int volume){
     if (volume > this->data) {
-        if (right != nullptr) {
+        if (right)
             right->insert(volume);
-        }
-        if (!right) {
+
+        else {
             right = new TreeNode(volume);
             std::cout << "создался правый узел" << std::endl;
 
@@ -35,10 +37,10 @@ void TreeNode::insert(int volume){
 
     }
     else if (volume < this->data) {
-        if (left != nullptr) {
+        if (left)
             left->insert(volume);
-        }
-        if (!left) {
+
+        else {
             left = new TreeNode(volume);
             std::cout << "создался левый узел" << std::endl;
         }
@@ -46,7 +48,7 @@ void TreeNode::insert(int volume){
 }
 
 void TreeNode::print_tree() const {
-    if (this != nullptr) {
+    if (this) {
         std::cout << data << std::endl;
         left->print_tree();
         right->print_tree();
@@ -75,15 +77,25 @@ void TreeNode::print_data() {
 }
 
 void TreeNode::clear_tree(){
-    if (this != nullptr) {
+    if (this) {
         left->clear_tree();
         right->clear_tree();
 
         this->data = 0;
-        this->left = nullptr;
-        this->right = nullptr;
+        if (left) {
+            delete left;
+            this->left = nullptr;
+        }
+        if (right) {
+            delete right;
+            this->right = nullptr;
+        }
     }
 
+}
+
+TreeNode::~TreeNode() {
+    this->clear_tree();
 }
 
 

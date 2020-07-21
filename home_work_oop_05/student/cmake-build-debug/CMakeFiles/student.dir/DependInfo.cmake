@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/isaac/CLionProjects/student/main.cpp" "/home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles/student.dir/main.cpp.o"
+  "/home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.cpp" "/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/student.dir/PointerStudent.cpp.o"
+  "/home/isaac/Home_work_oop/home_work_oop_05/student/Student.cpp" "/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/student.dir/Student.cpp.o"
+  "/home/isaac/Home_work_oop/home_work_oop_05/student/main.cpp" "/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/student.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

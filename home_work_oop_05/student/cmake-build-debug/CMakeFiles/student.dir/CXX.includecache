@@ -6,19 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/isaac/CLionProjects/student/Student.h
+/home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.h
+Student.h
+/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
+fstream
+-
+
+/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
 string
 -
 iostream
 -
 
-/home/isaac/CLionProjects/student/main.cpp
+/home/isaac/Home_work_oop/home_work_oop_05/student/main.cpp
 iostream
 -
 Student.h
-/home/isaac/CLionProjects/student/Student.h
+/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
 vector
 -
 fstream
 -
+string
+-
+PointerStudent.h
+/home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.h
 

@@ -1,3 +1,3 @@
-/home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/isaac/CLionProjects/student/cmake-build-debug/CMakeFiles/student.dir
+/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isaac/Home_work_oop/home_work_oop_05/student/cmake-build-debug/CMakeFiles/student.dir

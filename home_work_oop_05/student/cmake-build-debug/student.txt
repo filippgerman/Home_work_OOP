@@ -28,3 +28,6 @@ liza
 ruslan
 27
 4.9
+lena
+22
+5.4
