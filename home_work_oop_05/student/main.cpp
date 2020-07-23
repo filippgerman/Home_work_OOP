@@ -10,11 +10,13 @@ using namespace std;
 int main() {
 
     string path = "student.txt";
-    PointerStudent array(0);
-
+    PointerStudent array(path);
+do{
     cout << "selected action: " << endl
     << "1. add a student" << endl
-    << "2. print the list of students" << endl;
+    << "2. print the list of students" << endl
+    << "3. delete last entry " << endl
+    << "4. exit" << endl;
     int choice;
     cin >> choice;
 
@@ -22,30 +24,18 @@ int main() {
         case 1:
             array.add_students(path);
             break;
-        case 2:{
-            fstream file;
-            file.open(path, std::ios::in | std::ios::out | std::ios::app);
-            if (!file) {
-                cout << "file didnt open!!!!" << endl;
-                exit(-1);
-            }
-            for (int i = 0; !file.eof(); i++) {
-                array.insert();
-                file >> array[i];
-            }
-
-            for (int i = 0; i < array.get_number_students() - 1; i++) {
-                cout << array[i] << endl;
-            }
-            file.close();
+        case 2:
+            array.print(path);
             break;
-        }
         case 3:
+            array.del_last_entry(path);
+            break;
+        case 4:
+            return 0;
         default: {
             cout << "eror" << endl;
             break;
         }
     }
-
-    return 0;
+}while(true);
 }

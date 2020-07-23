@@ -6,18 +6,20 @@
 
 class PointerStudent {
     Student* pointer;
-    int number_students;
+    int number_students = 0;
+    std::string path;
 
 public:
-    PointerStudent(int number);
+    PointerStudent(std::string path);
 
     Student& operator[] (const int index) const;
     Student& operator[] (const int index);
 
     void insert();
 
-    int get_number_students();
     void add_students(std::string path);
+    void print(std::string path);
+    void del_last_entry (std::string path);
 
     ~PointerStudent() {delete[] pointer; pointer = nullptr;}
 

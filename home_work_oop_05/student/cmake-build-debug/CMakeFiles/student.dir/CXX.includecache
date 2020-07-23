@@ -6,29 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.h
-Student.h
-/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
-fstream
--
-
-/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
-string
--
-iostream
--
-
-/home/isaac/Home_work_oop/home_work_oop_05/student/main.cpp
-iostream
--
-Student.h
-/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
-vector
--
-fstream
--
-string
--
+/home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.cpp
 PointerStudent.h
 /home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.h
+
+/home/isaac/Home_work_oop/home_work_oop_05/student/PointerStudent.h
+Student.h
+/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
+fstream
+-
+
+/home/isaac/Home_work_oop/home_work_oop_05/student/Student.h
+string
+-
+iostream
+-
 
