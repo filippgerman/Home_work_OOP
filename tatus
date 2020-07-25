@@ -1,0 +1,24 @@
+[33mcommit 7e92a0d8757ebb0d9960896a0ac84b1be081dbf1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: German Filipp <germanfilipp@yandex.ru>
+Date:   Thu Jul 23 22:00:14 2020 +0300
+
+    in homework # 5 added a "del last entry" function,
+    and debugged the "add student" function.
+
+[33mcommit 22193e5ec07b1bad8f798149b1f8997c1353a04d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: German Filipp <germanfilipp@yandex.ru>
+Date:   Tue Jul 21 21:16:45 2020 +0300
+
+    elimination of comments on homework
+
+[33mcommit cab189d0c0f2fee2b5afb7a105a44d8306cd4af5[m
+Author: German Filipp <germanfilipp@yandex.ru>
+Date:   Mon Jul 20 18:27:11 2020 +0300
+
+    doing homework number 6
+
+[33mcommit 4e348faae86fd1364a26facde8d9808b3154be3e[m
+Author: German Filipp <germanfilipp@yandex.ru>
+Date:   Sun Jul 19 20:02:46 2020 +0300
+
+    creating a new repository with homework
