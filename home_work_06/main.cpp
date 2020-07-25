@@ -10,7 +10,9 @@ using namespace std;
 int main() {
 
     const int NUM = 3;
-    Fruit *pFruit[NUM ] = {new Apple(10,5,"apple",1), new Banan(7,6,"banana",true), new Grape(12,3,"grape")};
+    Fruit *pFruit[NUM ] = {new Apple(10,5,"apple",1),
+                           new Banan(7,6,"banana",true),
+                           new Grape(12,3,"grape")};
 
     for (int i = 0; i < NUM ; ++i) {
         double price = pFruit[i]->get_price();
@@ -19,13 +21,14 @@ int main() {
         string color = pFruit[i]->get_color();
         string ripe = pFruit[i]->get_ripe();
 
-        cout << "price : " << price << endl
-        <<"weight : " << weight << endl
-        <<"name : " << name << endl;
-        if (i == 0)
+        cout << "name : " << name << endl
+        <<"price : " << price << endl
+        <<"weight : " << weight << endl;
+        if (pFruit[i]->get_color() != "")
         cout <<"color : " << color << endl;
-        else if (i == 1)
+        else if (pFruit[i]->get_ripe() != "")
         cout <<"ripe : " << ripe << endl;
+        cout << endl;
 
     }
     return 0;

@@ -9,7 +9,8 @@ class Banan : public Fruit{
     std::string name = "";
     bool ripe;
 public:
-    Banan(double price, double weight, std::string name, bool ripe): price(price), weight(weight), name(name), ripe(ripe){}
+    Banan(double price, double weight, std::string name, bool ripe):
+    price(price), weight(weight), name(name), ripe(ripe){}
 
     std::string get_name() const override;
     double get_price() const override;

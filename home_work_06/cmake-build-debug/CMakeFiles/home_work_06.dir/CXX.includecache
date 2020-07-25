@@ -6,17 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/isaac/Home_work_oop/home_work_06/Banan.cpp
+/home/isaac/Homework_oop/home_work_06/Apple.h
+Fruit.h
+/home/isaac/Homework_oop/home_work_06/Fruit.h
+
+/home/isaac/Homework_oop/home_work_06/Banan.cpp
 Banan.h
-/home/isaac/Home_work_oop/home_work_06/Banan.h
+/home/isaac/Homework_oop/home_work_06/Banan.h
 iostream
 -
 
-/home/isaac/Home_work_oop/home_work_06/Banan.h
+/home/isaac/Homework_oop/home_work_06/Banan.h
 Fruit.h
-/home/isaac/Home_work_oop/home_work_06/Fruit.h
+/home/isaac/Homework_oop/home_work_06/Fruit.h
 
-/home/isaac/Home_work_oop/home_work_06/Fruit.h
+/home/isaac/Homework_oop/home_work_06/Fruit.h
 string
 -
+
+/home/isaac/Homework_oop/home_work_06/Grape.h
+Fruit.h
+/home/isaac/Homework_oop/home_work_06/Fruit.h
+
+/home/isaac/Homework_oop/home_work_06/main.cpp
+iostream
+-
+Fruit.h
+/home/isaac/Homework_oop/home_work_06/Fruit.h
+Apple.h
+/home/isaac/Homework_oop/home_work_06/Apple.h
+Banan.h
+/home/isaac/Homework_oop/home_work_06/Banan.h
+Grape.h
+/home/isaac/Homework_oop/home_work_06/Grape.h
+string
+/home/isaac/Homework_oop/home_work_06/string
 

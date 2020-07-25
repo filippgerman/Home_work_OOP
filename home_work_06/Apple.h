@@ -14,7 +14,8 @@ class Apple : public Fruit {
         YELLOW
     };
 public:
-    Apple(double price, double weight, std::string name,int  number_color): price(price), weight(weight), name(name), number_color(number_color) {}
+    Apple(double price, double weight, std::string name,int  number_color):
+    price(price), weight(weight), name(name), number_color(number_color) {}
 
     std::string get_name() const override;
     double get_price() const override;

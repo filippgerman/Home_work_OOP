@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/121/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/121/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/Home_work_oop/home_work_06
+CMAKE_SOURCE_DIR = /home/isaac/Homework_oop/home_work_06
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/Home_work_oop/home_work_06/cmake-build-debug
+CMAKE_BINARY_DIR = /home/isaac/Homework_oop/home_work_06/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/home_work_06.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/home_work_06.dir/flags.make
 
 CMakeFiles/home_work_06.dir/main.cpp.o: CMakeFiles/home_work_06.dir/flags.make
 CMakeFiles/home_work_06.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/home_work_06.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/main.cpp.o -c /home/isaac/Home_work_oop/home_work_06/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Homework_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/home_work_06.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/main.cpp.o -c /home/isaac/Homework_oop/home_work_06/main.cpp
 
 CMakeFiles/home_work_06.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/home_work_06.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_06/main.cpp > CMakeFiles/home_work_06.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Homework_oop/home_work_06/main.cpp > CMakeFiles/home_work_06.dir/main.cpp.i
 
 CMakeFiles/home_work_06.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/home_work_06.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_06/main.cpp -o CMakeFiles/home_work_06.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Homework_oop/home_work_06/main.cpp -o CMakeFiles/home_work_06.dir/main.cpp.s
 
 CMakeFiles/home_work_06.dir/Apple.cpp.o: CMakeFiles/home_work_06.dir/flags.make
 CMakeFiles/home_work_06.dir/Apple.cpp.o: ../Apple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/home_work_06.dir/Apple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/Apple.cpp.o -c /home/isaac/Home_work_oop/home_work_06/Apple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Homework_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/home_work_06.dir/Apple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/Apple.cpp.o -c /home/isaac/Homework_oop/home_work_06/Apple.cpp
 
 CMakeFiles/home_work_06.dir/Apple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/home_work_06.dir/Apple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_06/Apple.cpp > CMakeFiles/home_work_06.dir/Apple.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Homework_oop/home_work_06/Apple.cpp > CMakeFiles/home_work_06.dir/Apple.cpp.i
 
 CMakeFiles/home_work_06.dir/Apple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/home_work_06.dir/Apple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_06/Apple.cpp -o CMakeFiles/home_work_06.dir/Apple.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Homework_oop/home_work_06/Apple.cpp -o CMakeFiles/home_work_06.dir/Apple.cpp.s
 
 CMakeFiles/home_work_06.dir/Banan.cpp.o: CMakeFiles/home_work_06.dir/flags.make
 CMakeFiles/home_work_06.dir/Banan.cpp.o: ../Banan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/home_work_06.dir/Banan.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/Banan.cpp.o -c /home/isaac/Home_work_oop/home_work_06/Banan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Homework_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/home_work_06.dir/Banan.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/Banan.cpp.o -c /home/isaac/Homework_oop/home_work_06/Banan.cpp
 
 CMakeFiles/home_work_06.dir/Banan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/home_work_06.dir/Banan.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_06/Banan.cpp > CMakeFiles/home_work_06.dir/Banan.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Homework_oop/home_work_06/Banan.cpp > CMakeFiles/home_work_06.dir/Banan.cpp.i
 
 CMakeFiles/home_work_06.dir/Banan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/home_work_06.dir/Banan.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_06/Banan.cpp -o CMakeFiles/home_work_06.dir/Banan.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Homework_oop/home_work_06/Banan.cpp -o CMakeFiles/home_work_06.dir/Banan.cpp.s
 
 CMakeFiles/home_work_06.dir/Grape.cpp.o: CMakeFiles/home_work_06.dir/flags.make
 CMakeFiles/home_work_06.dir/Grape.cpp.o: ../Grape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/home_work_06.dir/Grape.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/Grape.cpp.o -c /home/isaac/Home_work_oop/home_work_06/Grape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/Homework_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/home_work_06.dir/Grape.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/home_work_06.dir/Grape.cpp.o -c /home/isaac/Homework_oop/home_work_06/Grape.cpp
 
 CMakeFiles/home_work_06.dir/Grape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/home_work_06.dir/Grape.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Home_work_oop/home_work_06/Grape.cpp > CMakeFiles/home_work_06.dir/Grape.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/Homework_oop/home_work_06/Grape.cpp > CMakeFiles/home_work_06.dir/Grape.cpp.i
 
 CMakeFiles/home_work_06.dir/Grape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/home_work_06.dir/Grape.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Home_work_oop/home_work_06/Grape.cpp -o CMakeFiles/home_work_06.dir/Grape.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/Homework_oop/home_work_06/Grape.cpp -o CMakeFiles/home_work_06.dir/Grape.cpp.s
 
 # Object files for target home_work_06
 home_work_06_OBJECTS = \
@@ -125,7 +125,7 @@ home_work_06: CMakeFiles/home_work_06.dir/Banan.cpp.o
 home_work_06: CMakeFiles/home_work_06.dir/Grape.cpp.o
 home_work_06: CMakeFiles/home_work_06.dir/build.make
 home_work_06: CMakeFiles/home_work_06.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable home_work_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/Homework_oop/home_work_06/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable home_work_06"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/home_work_06.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/home_work_06.dir/clean:
 .PHONY : CMakeFiles/home_work_06.dir/clean
 
 CMakeFiles/home_work_06.dir/depend:
-	cd /home/isaac/Home_work_oop/home_work_06/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/Home_work_oop/home_work_06 /home/isaac/Home_work_oop/home_work_06 /home/isaac/Home_work_oop/home_work_06/cmake-build-debug /home/isaac/Home_work_oop/home_work_06/cmake-build-debug /home/isaac/Home_work_oop/home_work_06/cmake-build-debug/CMakeFiles/home_work_06.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/isaac/Homework_oop/home_work_06/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/Homework_oop/home_work_06 /home/isaac/Homework_oop/home_work_06 /home/isaac/Homework_oop/home_work_06/cmake-build-debug /home/isaac/Homework_oop/home_work_06/cmake-build-debug /home/isaac/Homework_oop/home_work_06/cmake-build-debug/CMakeFiles/home_work_06.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/home_work_06.dir/depend
 
