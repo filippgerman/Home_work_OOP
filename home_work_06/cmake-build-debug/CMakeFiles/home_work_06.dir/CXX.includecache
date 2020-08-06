@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/isaac/Homework_oop/home_work_06/Apple.cpp
+Apple.h
+/home/isaac/Homework_oop/home_work_06/Apple.h
+iostream
+-
+
 /home/isaac/Homework_oop/home_work_06/Apple.h
 Fruit.h
 /home/isaac/Homework_oop/home_work_06/Fruit.h
