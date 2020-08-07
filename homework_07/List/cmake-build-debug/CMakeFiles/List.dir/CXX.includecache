@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isaac/Home_work_oop/homework_07/List/List.h
+iostream
+-
+exception
+-
+
+/home/isaac/Home_work_oop/homework_07/List/main.cpp
+iostream
+-
+List.h
+/home/isaac/Home_work_oop/homework_07/List/List.h
+

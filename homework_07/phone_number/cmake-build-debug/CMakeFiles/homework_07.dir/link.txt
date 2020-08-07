@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/homework_07.dir/main.cpp.o CMakeFiles/homework_07.dir/Number.cpp.o  -o homework_07 
