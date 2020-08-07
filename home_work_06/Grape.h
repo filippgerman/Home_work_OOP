@@ -13,6 +13,12 @@ public:
     std::string get_name() const override;
     double get_price() const override;
     double get_weight() const override;
+
+    void print_fruit() const override;
+
+
+    std::string show_ripe() const override;
+    std::string show_color() const override;
 };
 
 

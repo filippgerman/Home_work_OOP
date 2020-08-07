@@ -14,7 +14,7 @@ double Apple::get_weight() const {
     return weight;
 }
 
-std::string Apple::get_color() const {
+std::string Apple::show_color() const {
     switch (number_color) {
         case RED:
             return "red";
@@ -29,4 +29,15 @@ std::string Apple::get_color() const {
             cout << "there is no such color" << endl;
             return "";
     }
+}
+
+string Apple::show_ripe() const {
+    return "";
+}
+
+void Apple::print_fruit() const {
+    cout << "name : " << name << endl
+         <<"price : " << price << endl
+         <<"weight : " << weight << endl
+         <<"color : " << show_color() << endl;
 }

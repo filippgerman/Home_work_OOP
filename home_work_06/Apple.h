@@ -8,7 +8,7 @@ class Apple : public Fruit {
     double weight;
     std::string name = "";
     int number_color;
-    enum color {
+    enum Color {
         RED,
         GREEN,
         YELLOW
@@ -19,8 +19,13 @@ public:
 
     std::string get_name() const override;
     double get_price() const override;
+
+    std::string show_ripe() const override;
+
+    void print_fruit() const override;
+
     double get_weight() const override;
-    std::string  get_color() const override ;
+    std::string  show_color() const override ;
 };
 
 

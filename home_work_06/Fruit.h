@@ -6,14 +6,16 @@
 
 class Fruit {
 public:
-    virtual double get_price () const {return 0;}
-    virtual double get_weight () const {return 0;}
-    virtual std::string get_name () const { return "";}
+    virtual double get_price () const = 0;
+    virtual double get_weight () const = 0;
+    virtual std::string get_name () const = 0;
 
-    virtual std::string get_color () const {return "";}
-    virtual std::string get_ripe() const {return "";}
+    virtual std::string show_color () const  = 0;
+    virtual std::string show_ripe() const = 0;
 
-    ~Fruit(){}
+    virtual void print_fruit() const = 0;
+
+    virtual ~Fruit(){}
 };
 
 #endif
